@@ -1,0 +1,23 @@
+{
+  "name": "webpack-fivem-manifest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2277/webpack-fivem-manifest.git"
+  },
+  "keywords": [],
+  "author": "2277",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2277/webpack-fivem-manifest/issues"
+  },
+  "homepage": "https://github.com/2277/webpack-fivem-manifest#readme",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
+}
