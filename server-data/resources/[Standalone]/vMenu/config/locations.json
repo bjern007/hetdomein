@@ -1,0 +1,15 @@
+{
+  "teleports": [
+    {
+      "name": "Example Location",
+      "coordinates": {
+        "X": 472.94,
+        "Y": -3035.96,
+        "Z": 6.2,
+        "IsNormalized": false,
+        "IsZero": false
+      },
+      "heading": 356.1
+    }
+  ]
+}
