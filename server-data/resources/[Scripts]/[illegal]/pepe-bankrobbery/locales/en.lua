@@ -1,0 +1,27 @@
+Locales['en'] = {
+	["not_available"]  = "Niet Beschikbaar.",
+	["opened"]  = "Geopend",
+	["cracksafe"]  = "~g~E~s~ - Kraken",
+	["failed_msg"]  = "Gefaald...",
+	["progress_msg"]  = "Bank is recent overvallen..",
+	["missing_msg"]  = "Je mist iets.",
+	["nocops"]  = "Niet genoeg agenten!",
+	["not_correct_card"]  = "Niet de juiste kaart...",
+	["breakingopen"]  = "Openbreken..",
+	["cancelled"]  = "Geannuleerd..",
+	["nolockpicks"]  = "Je hebt geen lockpicks.",
+	["success"]  = "Gelukt",
+	["nopes"]  = "You did not found anything",
+	["atmrob"]  = "An ATM Robbery has happened Recently. Please Wait ",
+	["nodrill"]  = "You have no drill..",
+	["success"]  = "Succesful Robbery | You earnt ",
+	["waitnight"]  = "Wait until its nighttime",
+	["needdrill"]  = "You need an Electronic Kit and a Drill to proceed.",
+	["atmrob"]  = "Attempted ATM Robbery",
+	["atmrobmsg"]  = "Luide explosie gehoord",
+	["grabmoney"]  = "~g~E~s~ - Pak Geld",
+	["final"]  = "[F] Drillen in grote kluis",
+	["alreadystarted"]  = "AEen bank is recent overvallen",
+}
+-- _U("atmrob") .."
+--                         _U("nocops")

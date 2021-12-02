@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=B612+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.character-list {
+    position: fixed;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.character-list-container {
+    position: fixed;
+    display: block;
+    padding: 3vh;
+    height: 100%;
+    width: 45vh;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.character-list-container p {
+    margin: 0;
+}
+
+.character-list-title {
+    padding-top: 2.5vh;
+    font-size: 3vh;
+}
+
+.character-list-block {
+    display: block;
+    padding-top: 10vh;
+}
+
+.character-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #1976D2;
+    transition: ease 0.2s;
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+.character-box:hover {
+    background-color: #424242;
+    border-bottom: 4px solid #42A5F5;
+}
+
+.character-icon {
+    margin-right: 2vh;
+    float: left;
+    font-size: 3vh;
+    margin-top: 0.6vh;
+}
+
+.character-box p {
+    margin: 0;
+    padding: 0;
+    line-height: 2.8;
+    font-weight: 600;
+}
+
+.selected {
+    background-color: #424242;
+    border-bottom: 4px solid #42A5F5;
+}
+
+.character-list-buttons {
+    display: none;
+    position: fixed;
+    bottom: 2vh;
+    left: 2.6vh;
+}
+
+.char-button {
+    padding: 3vh;
+    margin-bottom: 2vh;
+    font-size: 1.5vh;
+    font-weight: 600;
+    width: 39.5vh;
+    color: white;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
+.char-button:focus {
+    outline: none;
+}
+
+#play {
+    display: none;
+    background-color: #4CAF50;
+    transition: all 0.2s ease;
+}
+
+#play:hover {
+    background-color: #81C784;
+}
+
+#delete {
+    display: none;
+    background-color: #E53935;
+    transition: all 0.2s ease;
+}
+
+#delete:hover {
+    background-color: #E57373;
+}
+
+#create {
+    display: none;
+    background-color: #4CAF50;
+    transition: all 0.2s ease;
+}
+
+#create:hover {
+    background-color: #81C784;
+}
+
+.character-creation {
+    left: 50.8vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    height: 100%;
+    width: 40vh;
+    top: 0;
+    border-left: 2px solid #1976D2;
+    color: white;
+}
+
+.character-creation-container {
+    padding: 3vh;
+}
+
+.character-creation-title {
+    padding-top: 2.5vh;
+    font-size: 3vh;
+}
+
+.character-creation-form {
+    padding-left: 2.7vh;
+    padding-top: 5vh;
+}
+
+.character-input {
+    width: 30vh;
+    padding: 2vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.8vh;
+    border-bottom: 2px solid #1976D2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 2.5vh;
+    transition: ease 0.5s;
+}
+
+.character-input:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #42A5F5;
+    transition: all 0.2s ease;
+}
+
+.character-select {
+    width: 34vh;
+    padding: 2vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.8vh;
+    border-bottom: 2px solid #1976D2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 2.5vh;
+    transition: ease 0.5s;
+}
+
+.character-select:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #42A5F5;
+    transition: all 0.2s ease;
+}
+
+.character-creation-buttons {
+    position: fixed;
+    bottom: 2vh;
+    left: 53vh;
+}
+
+.create-button {
+    transition: ease 0.2s;
+    padding: 3vh;
+    margin-bottom: 2vh;
+    font-size: 1.5vh;
+    font-weight: 600;
+    width: 28vh;
+    color: white;
+    outline: none;
+    border: none;
+    transition: ease 0.5s;
+    background-color: #4CAF50;
+}
+
+.create-button:hover {
+    background-color: #81C784;
+}
+
+.close-button {
+    display: block;
+    transition: ease 0.2s;
+    padding: 3vh;
+    margin-bottom: 2vh;
+    font-size: 1.5vh;
+    font-weight: 600;
+    width: 28vh;
+    color: white;
+    outline: none;
+    border: none;
+    transition: ease 0.5s;
+    background-color: #E53935;
+}
+
+.close-button:hover {
+    background-color: #E57373;
+}
+
+#hidden {
+    display: none;
+}
+
+.server-stats {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 2vh;
+    background-color:rgba(0, 0, 0, 0.8);
+    margin: 2vh;
+    border-left: 4px solid #1976D2;
+}
+
+.character-delete {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 21vh;
+    top: 35vh;
+    left: 60vh; 
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: white;
+    overflow: visible !important;
+}
+
+.character-delete-cont {
+    padding: 2vh;
+}
+
+.character-delete-buttons {
+    padding-top: 2vh;
+}
+
+.char-remove {
+    padding: 2vh;
+    background-color: #4CAF50;
+    transition: ease 0.5s;
+    margin-bottom: 1.5vh;
+}
+
+.char-remove-cancel {
+    padding: 2vh;
+    background-color: #E53935;
+    transition: ease 0.5s;
+    margin-bottom: 2vh;
+}
+
+.char-remove:hover {
+    background-color: #81C784;
+}
+
+.char-remove-cancel:hover {
+    background-color: #E57373;
+}

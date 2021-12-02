@@ -1,0 +1,47 @@
+Config = {}
+
+Config.Webhooks = {
+    ["default"] = "",
+    ["anticheat"] = "",
+    --["prio"] = "https://discord.com/api/webhooks/878372236631891978/kWWOPtIDXUs-smotontHDVC5zeyn9VM6oVLVnB8LEpl678J_Gj0o_9rQsUebwl8RA8ps",
+    ["playermoney"] = "https://discord.com/api/webhooks/878263414894493736/sWYGUFZ8jGth_NXQU-vg-tmJFjtybmci5yZ6PbQk1dkDltcOhNgJGhJqVza1ohFaqIPW",
+    ["playerinventory"] = "https://discord.com/api/webhooks/878263523799617608/8r1wgdk6XqKmNNMr0dto3eEecSRdG-PgaCbCsf2b88D2uufn29_9-nSIj7APfqpiEx7q",
+    ["robbing"] = "https://discord.com/api/webhooks/878263664031977563/7LdLhjMU3ZI6sWYbmmCN-WT4zLqFGQkE2jguZkybw82vyQ_9KaNQPa3c99Apg89OyRWH",
+    ["report"] = "https://discord.com/api/webhooks/878264596052459590/G5edFM-24ShzYummH-DIjjvxJvydjDlf_syQHJCdiiuL1OAMvlQDIjfI5wldtlDy8rv0",
+    ["cuffing"] = "https://discord.com/api/webhooks/878264800805789706/5kpvCTkh86kO1mLIw-PF523-k74ZyW4RAP3CJOOu1FmspCLG29OInZRsAI62CDkBu5z7",
+    ["drop"] = "https://discord.com/api/webhooks/878270802322137088/JAO8mrvh-5qih7C5ruOC5mPW2BGrYpRXuRoWBXJhqXdc97Rgyanivi6k0BboKSak_SDf",
+    ["trunk"] = "https://discord.com/api/webhooks/878270582037286932/J2wBu6M1WIiju5W6b5YvOTTMqNk5nGaLOz350-Iv2wdq_qsDI5cYN9RhjZqmzzFXAMGW",
+    ["stash"] = "https://discord.com/api/webhooks/878270496465100820/ahDYFQJql-Y2xkLSE_7eK438WqOWIjUzBZ4121lQn5r2zJ_ORb9VRroV8kAVTKO0XmQ4",
+    ["glovebox"] = "https://discord.com/api/webhooks/878270647527153725/5oWC1pHb9MISDkWVno0kp02cnmdFuVRX20YNVyFkL2G_6pI_jG2IV_gJ6zEEquKUV9tu",
+    ["banking"] = "",
+    ["vehicleshop"] = "https://discord.com/api/webhooks/878263895687561247/uSHz7msUodVn23JOF8NFjJoCoqVEN2Bvc1VLLTaetWTWWgDC2x8L1GIdcVbthJiYBB1K",
+    ["vehicleupgrades"] ="https://discord.com/api/webhooks/878263985386963006/pSl4pgZWNfOK0DdZfrW5UReGCLuo3pvRNt3vgKBu7HBLUqj0oZqan8F0tYtM8XLhecup", 
+    --["twitter"] = "https://discord.com/api/webhooks/878264657553522688/kSK4xphOyfpgj3I-KHFPiCCjioQuwsrnDo59MYtYupV5uiKnzPkyImPvHD3IxpUfQC-y"
+    --["realestateHigh"] = "https://discord.com/api/webhooks/784880257479606272/iZwpk-LuMsVSHX_vvjTQ-SYjnVLTHk3n0pu80z9C6rdBbdmUr4SLRE-OOI4tkeevSKKQ",
+    ["shops"] = "https://discordapp.com/api/webhooks/729001532909027338/8M9HkmLZx5K8hpehduO3qIHVtgsD8A1KowAMvoHLetwNgdUX3XibpvdpUqbzgRRtRpAy", 
+    ["storerobbery"] = "",
+    ["dealers"] = "",
+    ["bankrobbery"] = "",
+    ["death"] = "",
+    ["joinleave"] = "https://discord.com/api/webhooks/878264437314830336/eTAbc67m6k4YIVAolUbjIPl3p6Z09R58BF80W1OvdypnibRIrezxqfhTLt68CciiQTiR",
+    --["realestate"] = "https://discord.com/api/webhooks/784880358956072996/8wItJqKPe98HYXGe93fiKeFlCcMztL6DUX-WsVyxYWsUrsTCN6WWbfokKN51Xfy8Yaer",
+    ['chat'] = "https://discord.com/api/webhooks/878263164255490049/cyQ-_WGhZN_Vhfym1CTfZpOCAaijfimopfyRHgVMlEPe9joMekQ2NK0UayeY-0gvsgSJ",
+    ['bans'] = "",
+    ['banktruck'] = "",
+    ['humanelabs'] = "",
+    ["housing"] = "",
+}
+
+Config.Colors = {
+    ["default"] = 16711680,
+    ["blue"] = 25087,
+    ["green"] = 762640,
+    ["white"] = 16777215,
+    ["black"] = 0,
+    ["orange"] = 16743168,
+    ["lightgreen"] = 65309,
+    ["yellow"] = 15335168,
+    ["turqois"] = 62207,
+    ["pink"] = 16711900,
+    ["red"] = 16711680,
+}

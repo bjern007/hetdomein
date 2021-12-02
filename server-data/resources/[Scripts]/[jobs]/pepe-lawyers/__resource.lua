@@ -1,0 +1,5 @@
+client_script "gui.lua"
+client_script "config.lua"
+client_script "client.lua"
+client_script "job-realestate.lua"
+server_script "server/main.lua"

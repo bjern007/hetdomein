@@ -1,0 +1,99 @@
+.cityhall-app {
+    display: none;
+    height: 110%;
+    width: 100%;
+    
+    background-image: linear-gradient(rgb(202, 155, 0), rgb(202, 155, 0), rgb(13, 0, 73));
+    overflow: hidden;
+}
+
+.cityhall-header {
+    position: absolute;
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(202, 155, 0);
+    top: 0;
+    color: white;
+    font-family: 'Samsung Sans Medium';
+    font-size: 1.8vh;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.cityhall-header > p {
+    line-height: 12vh;
+    text-indent: 2vh;
+}
+
+.cityhall-header > span {
+    position: absolute;
+    top: 7.5vh;
+    left: 2vh;
+    font-size: 1.2vh;
+    height: 2vh;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.time-left-text {
+    position: absolute;
+    top: 10.5vh;
+    left: 2vh;
+    font-size: 1.2vh;
+    height: 2vh;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+#time-left {
+    position: absolute;
+    top: 10.5vh;
+    left: 21vh;
+    font-size: 1.2vh;
+    height: 2vh;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.cityhall-jobs {
+    position: absolute;
+    background-color: #00000033;
+    width: 90%;
+    height: 73%;
+    
+
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 3%;
+
+    border-radius: .5vh;
+
+    overflow-y: scroll;
+}
+
+.cityhall-jobs::-webkit-scrollbar {
+    display: none;
+}
+
+.cityhall-jobs-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.job-page-block {
+    margin: 5px 0px;
+    font-size: 16px; 
+    padding: 10px; 
+    color: #fff; 
+    width: 100%; 
+    background-color: rgb(13, 0, 73);
+    padding: 10px;
+    border-radius: .5vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.job-page-block:hover {
+    background-color:rgb(22, 0, 117);
+}
+
+
